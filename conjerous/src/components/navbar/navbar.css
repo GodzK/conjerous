@@ -1,0 +1,41 @@
+.Navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.Navbar-nav-link{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Navbar-nav-logo{
+    margin-right: 2rem;
+}
+.Navbar-nav-logo img{
+   width: 62.56px;
+   height: 16.02px;
+}
+.Navbar-link-container{
+  display: flex;
+   flex-direction: row; /*important!! */
+   align-items: center;
+}
+.Navbar-navbar-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar-link-container p ,
+.Navbar-navbar-sign p,
+.Navbar-menu-container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin: 0 1rem ; /*0 on top bottom and !!! important to margin each of link*/
+}
