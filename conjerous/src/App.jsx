@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className ="gradient-bg">
        <Navbar/>
-       <Header/>
+      <Header/>
       </div>
       <Brand/>
       <Whatconjer/>

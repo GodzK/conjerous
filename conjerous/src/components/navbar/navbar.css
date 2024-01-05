@@ -1,41 +1,137 @@
-.Navbar-nav{
+.Navbar-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
 }
-.Navbar-nav-link{
+
+.Navbar-nav-link {
     flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.Navbar-nav-logo{
+
+.Navbar-nav-logo {
     margin-right: 2rem;
 }
-.Navbar-nav-logo img{
-   width: 62.56px;
-   height: 16.02px;
+
+.Navbar-nav-logo img {
+    width: 62.56px;
+    height: 16.02px;
 }
-.Navbar-link-container{
-  display: flex;
-   flex-direction: row; /*important!! */
-   align-items: center;
+
+.Navbar-link-container {
+    display: flex;
+    flex-direction: row;
+    /*important!! */
+    align-items: center;
 }
-.Navbar-navbar-sign{
+
+.Navbar-navbar-sign {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Navbar-link-container p ,
+
+.Navbar-link-container p,
 .Navbar-navbar-sign p,
 .Navbar-menu-container p {
     color: #fff;
     font-family: var(--font-family);
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18px;
     line-height: 25px;
     text-transform: capitalize;
     cursor: pointer;
-    margin: 0 1rem ; /*0 on top bottom and !!! important to margin each of link*/
+    margin: 0 1rem;
+
+}
+
+.Navbar-navbar-sign button,
+.Navbar-munu-container button {
+
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: var(--font-family);
+}
+
+.Navbar-navbar-sign button:hover {
+    background-color: #fff;
+}
+
+.Navbar-navbar-sign button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .button-74 {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+
+.Navbar-menu {
+    margin-left: 1rem;
+   display: none;
+    position : relative;
+}
+.Navbar-menu svg {
+    cursor: pointer;
+}
+.Navbar-menu-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    max-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2)
+}
+.Navbar-menu-container p {
+    margin: 1rem 0 ;
+}
+.Navbar-menu-link-container-sign{
+    display: none;
+}
+
+@media screen and (min-width: 1050px) {
+    .Navbar-link-container{
+        display: none;
+    }
+    .Navbar-menu{
+        display: flex;
+    }
+    
+}
+@media screen and (min-width: 550px) {
+    .Navbar-nav{
+       padding: 2rem;
+    }
+    .Navbar-navbar-sign{
+        display: none;
+    }
+    
 }
