@@ -1,0 +1,50 @@
+.mern-heading{
+    font-family: var(--font-family);
+}
+.mern{
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+   
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+   
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+ 
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.mern-feature{
+    display: flex;
+}
+.mern-feature .mern-container {
+    margin: 0;
+}
+.mern-feature .mern-container-text{
+    max-width: 700px;
+}
+.mern-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2 rem;
+}.mern-heading h1{
+    line-height: 45px;
+}
+.mern-heading p{
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    font-weight: bolder;
+    margin-top: 2rem;
+}

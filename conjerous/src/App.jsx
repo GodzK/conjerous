@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Article, Brand , CTA , Feature , Navbar ,  } from './components'
-import {Blog, Features , Footer, Header , Possibility , Whatconjer } from './containers'
+import {Blog, Features , Footer, Header , Possibility , Mern} from './containers'
 function App() {
   return (
     <div className="App">
@@ -11,7 +11,7 @@ function App() {
       </div> 
      
       <Brand/>
-      <Whatconjer/>
+      <Mern/>
       <Feature/>
       <Possibility/>
       <CTA/>
