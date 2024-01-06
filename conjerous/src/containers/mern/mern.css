@@ -43,7 +43,7 @@
     line-height: 45px;
 }
 .mern-heading p{
-    font-family: var(--font-family);
+    font-family: var(--font-family-th);
     color: var(--color-subtext);
     font-weight: bolder;
     margin-top: 2rem;

@@ -1,13 +1,17 @@
-import React from "react";
-import "./feature.css";
-function Feature() {
-  return <div className="feature-container">
-  <div className="feature-container-feature">
-<div/>
-{/* stop on this */}
-  
+import React from 'react';
+import './feature.css';
+
+const Feature = ({ title, text }) => (
+  <div className="feature">
+    <div className="feature-title">
+      <div />
+      {/* ข้างบนคือที่ขีด */}
+      <h1>{title}</h1>
+    </div>
+    <div className="feature-text">
+      <p>{text}</p>
+    </div>
   </div>
-  </div>;
-}
+);
 
 export default Feature;

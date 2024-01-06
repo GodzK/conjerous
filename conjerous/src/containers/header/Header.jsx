@@ -10,7 +10,7 @@ function Header() {
         <h1 className="gradient-text">Taught by PKCodeExplainer</h1>
         <div className="Header-content-input">
           <input type="email" placeholder="your email adress" />
-          <button type="button">get start</button>
+          <button type="button">📧</button>
         </div>
         <div className="Header-content-people">
           <img src={people} alt="" />

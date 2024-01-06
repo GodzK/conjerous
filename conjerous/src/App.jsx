@@ -9,10 +9,10 @@ function App() {
        <Navbar/> 
        <Header/>
       </div> 
-     
       <Brand/>
       <Mern/>
       <Feature/>
+      <Features/>
       <Possibility/>
       <CTA/>
       <Blog/>
