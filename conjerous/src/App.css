@@ -15,22 +15,22 @@ a {
 }
 .gradient-bg{
    /* ff 3.6+ */
-   background: -moz-linear-gradient(90deg, rgba(170, 136, 136, 1) 0%, rgba(0, 0, 0, 1) 100%); 
+   background: -moz-linear-gradient(90deg, rgb(114, 159, 255) rgba(0, 0, 0, 1) 100%); 
 
    /* safari 5.1+,chrome 10+ */
-   background: -webkit-linear-gradient(90deg, rgba(170, 136, 136, 1) 0%, rgba(0, 0, 0, 1) 100%);
+   background: -webkit-linear-gradient(90deg, rgb(114, 159, 255) 0%, rgba(0, 0, 0, 1) 100%);
 
    /* opera 11.10+ */
-   background: -o-linear-gradient(90deg, rgba(170, 136, 136, 1) 0%, rgba(0, 0, 0, 1) 100%);
+   background: -o-linear-gradient(90deg, rgb(114, 159, 255) 0%, rgba(0, 0, 0, 1) 100%);
 
    /* ie 6-9 */
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#AA8888', GradientType=0 );
 
    /* ie 10+ */
-   background: -ms-linear-gradient(90deg, rgba(170, 136, 136, 1) 0%, rgba(0, 0, 0, 1) 100%);
+   background: -ms-linear-gradient(90deg, rgb(114, 159, 255) 0%, rgba(0, 0, 0, 1) 100%);
 
    /* global 94%+ browsers support */
-   background: linear-gradient(90deg, rgba(170, 136, 136, 1) 0%, rgba(0, 0, 0, 1) 100%);
+   background: linear-gradient(90deg, rgb(114, 159, 255) 0%, rgba(0, 0, 0, 1) 100%);
 }
 .gradient-text{
   background: var(--gradient-text);

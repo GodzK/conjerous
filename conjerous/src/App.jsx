@@ -6,9 +6,10 @@ function App() {
   return (
     <div className="App">
       <div className ="gradient-bg">
-       <Navbar/>
-      <Header/>
-      </div>
+       <Navbar/> 
+       <Header/>
+      </div> 
+     
       <Brand/>
       <Whatconjer/>
       <Feature/>
