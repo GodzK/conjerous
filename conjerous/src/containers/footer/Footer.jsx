@@ -1,5 +1,5 @@
 import React from 'react';
-import { mongodb, express, react, node} from  './importfooter'
+import { mongodb} from  './importfooter'
 import './footer.css';
 
 const Footer = () => (
