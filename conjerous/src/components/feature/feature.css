@@ -1,19 +1,20 @@
-.feature {
+.container-feature {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
+
     margin: 1rem;
 }
 
-.feature-title {
+.container-feature-title {
     flex: 1;
     max-width: 180px;
     margin-right: 2rem;
 }
 
-.feature-title h1 {
+.container-feature-title h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 18px;
@@ -22,7 +23,7 @@
     color: #fff;
 }
 
-.feature-title div {
+.container-feature-title div {
     width: 38px;
     height: 3px;
     background: var(--gradient-bar);
@@ -30,14 +31,14 @@
     margin-bottom: 0.25rem;
 }
 
-.feature-text {
+.container-feature-text {
     flex: 2;
     max-width: 390px;
     display: flex;
 }
 
-.feature-text p {
-    font-family: var(--font-family-th);
+.container-feature-text p {
+    font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -45,17 +46,17 @@
 }
 
 @media screen and (max-width: 550px) {
-    .feature-title h1 {
+    .container-feature-title h1 {
         font-size: 14px;
         line-height: 22px;
     }
 
-    .feature-text p {
+    .container-feature-text p {
         font-size: 12px;
         line-height: 20px;
     }
 
-    .feature {
+    .-container-feature {
         margin: 1rem 0;
     }
 }

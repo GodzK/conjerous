@@ -2,13 +2,12 @@ import React from 'react';
 import './feature.css';
 
 const Feature = ({ title, text }) => (
-  <div className="feature">
-    <div className="feature-title">
+  <div className="container-feature">
+    <div className="container-feature-title">
       <div />
-      {/* ข้างบนคือที่ขีด */}
       <h1>{title}</h1>
     </div>
-    <div className="feature-text">
+    <div className="container-feature-text">
       <p>{text}</p>
     </div>
   </div>
