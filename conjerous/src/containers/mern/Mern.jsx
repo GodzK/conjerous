@@ -15,7 +15,7 @@ A มาจาก Angular.js เป็น Front-end JavaScript Framework ที�
 
 N มาจาก Node.js เป็น Back-end JavaScript Framework ที่นิยมเอาไว้ทำงานในฝั่ง Serverช้ในการประกอบอาชีพและพัฒนาตัวเองต่อไป"/>
       </div>
-      <div className="mern-heading">
+      <div className="mern-heading" id ="Mern">
         <h1 className="gradient-text">MERN THE NEXT STEP OF PROGRAMMING</h1>
         <p>Explore the library</p>
       </div>
