@@ -10,10 +10,10 @@ const Menu = () => (
       <a href="#home">Home </a>
     </p>
     <p>
-      <a href="#Whatconjer">What is MERN</a>
+      <a href="#MERN">What is MERN</a>
     </p>
     <p>
-      <a href="#possibility">Open Ai </a>
+      <a href="#brand-section-padding">Open Ai </a>
     </p>
     <p>
       <a href="#features">Case study</a>
