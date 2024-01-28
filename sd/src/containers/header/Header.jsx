@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./header.css";
 import people from "../../assets/people.png";
 import ai from "../../assets/ai.png";
 function Header() {
